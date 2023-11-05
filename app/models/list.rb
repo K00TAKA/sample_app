@@ -1,7 +1,7 @@
 class List < ApplicationRecord
   has_one_attached :image
 
-  validate :title, presence: true
-  validate :body, presence: true
-  validate :image, presence: true
+  validates :title, presence: true
+  validates :body, presence: true
+  validates :image, presence: true
 end
