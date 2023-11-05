@@ -1,6 +1,6 @@
 <h1>新規投稿</h1>
 <% if @list.errors.any? %>
-  <%= @list.errors.count %>
+  <%= @list.errors.count %>件のエラーが発生しました
   <ul>
     <% @list.errors.full_message.each do |message| %>
       <li><%= message %></li>
