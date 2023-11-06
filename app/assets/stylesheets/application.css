@@ -19,6 +19,10 @@
   box-sizing: border-box;
 }
 
+header, h1, nav, .list-comment {
+  font-family: 'Kaushan', cursive, sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
